@@ -39,7 +39,7 @@ $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #fff;
-$background-alt: #f2f2f5;
+$background-alt: #F0F0F0;
 
 // Define border colors
 $border: #dcd9d9;
@@ -141,12 +141,12 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 101;
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
